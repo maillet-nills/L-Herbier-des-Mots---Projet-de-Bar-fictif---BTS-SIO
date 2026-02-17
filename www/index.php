@@ -191,30 +191,22 @@
                 </div>
                 <div class="row g-3">
                   <div class="col-md">
-                    <div class="input-group">
-                      <label for="" class="input-group-text">Ambience</label>
-                      <input
-                        type="text"
-                        name=""
-                        id=""
-                        class="form-control"
-                      />
-                    </div>
+                    <label for="ambiance-stars" class="input-group-text">Ambiance</label>
+                    <input type="radio" name="ambiance-stars" id="" value="1" class="form-check-input">
+                    <input type="radio" name="ambiance-stars" id="" value="2" class="form-check-input">
+                    <input type="radio" name="ambiance-stars" id="" value="3" class="form-check-input">
+                    <input type="radio" name="ambiance-stars" id="" value="4" class="form-check-input">
+                    <input type="radio" name="ambiance-stars" id="" value="5" class="form-check-input">
                   </div>
                 </div>
                 <div class="row g-3">
                   <div class="col-md">
-                    <div class="input-group">
-                      <label for="" class="input-group-text"
-                        >Nourriture</label
-                      >
-                      <input
-                        type=""
-                        name=""
-                        id=""
-                        class="form-control"
-                      />
-                    </div>
+                    <label for="food-stars" class="input-group-text">Nourriture</label>
+                    <input type="radio" name="food-stars" id="" value="1" class="form-check-input">
+                    <input type="radio" name="food-stars" id="" value="2" class="form-check-input">
+                    <input type="radio" name="food-stars" id="" value="3" class="form-check-input">
+                    <input type="radio" name="food-stars" id="" value="4" class="form-check-input">
+                    <input type="radio" name="food-stars" id="" value="5" class="form-check-input">
                   </div>
                 </div>
                 <div class="row g-3">

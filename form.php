@@ -7,10 +7,10 @@
 </head>
 <body>
     <?php
-        echo '<b>Service : </b>'.htmlspecialchars($_POST['service-stars']).'⭐<br>';
-        echo '<b>Ambience : </b>'.htmlspecialchars($_POST['ambiance-stars']).'⭐<br>';
-        echo '<b>Nourriture : </b>'.htmlspecialchars($_POST['food-stars']).'⭐<br>';
-        echo '<b>Situation : </b>'.htmlspecialchars($_POST['situation']).'<br>';
+        echo '<b>Service : </b>'.$_POST['service-stars'].'⭐<br>';
+        echo '<b>Ambience : </b>'.$_POST['ambiance-stars'].'⭐<br>';
+        echo '<b>Nourriture : </b>'.$_POST['food-stars'].'⭐<br>';
+        echo '<b>Situation : </b>'.$_POST['situation'].'<br>';
         echo '<b>Commentaire : </b>'.htmlspecialchars($_POST['review']);
     ?>
 </body>
