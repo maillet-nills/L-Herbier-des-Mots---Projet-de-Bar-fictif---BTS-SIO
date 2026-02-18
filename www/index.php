@@ -178,7 +178,12 @@
             <div class="col-md-6">
             <form action="../form.php" method="post">
               <fieldset class="border rounded-3 p-4 mb-4 bg-white shadow-sm">
-
+                <div class="row g-3">
+                  <div class="col-md">
+                    <label for="Nom" class="input-group-text">Nom</label>
+                    <input type="text" name="name" class="form-control" placeholder="Votre nom (optionnel)">
+                  </div>
+                </div>
                 <div class="row g-3">
                   <div class="col-md">
                     <label for="service-stars" class="input-group-text">Service</label>
