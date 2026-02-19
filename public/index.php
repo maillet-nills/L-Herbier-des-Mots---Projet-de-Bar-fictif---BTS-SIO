@@ -8,7 +8,7 @@
       name="description"
       content="La page d'accueil du café littéraire 'l'Herbier des mots' localisé à Toulouse. Elle contient les horaires du café."
     />
-    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../assets/css/bootstrap.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
