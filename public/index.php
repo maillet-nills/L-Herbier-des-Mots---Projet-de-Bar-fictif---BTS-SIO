@@ -143,13 +143,8 @@
       <section class="py-5 text-white" style="background: #163a14">
         <div class="container">
           <div class="row align-items-center">
-            <div class="col-md-6"><h2 class="text-center mb-5">Nos Horaires</h2></div>
-            <div class="col-md-6"><h2 class="text-center mb-5">Notez notre bar !</h2></div>
-          </div>
-
-          <div class="row align-items-center">
-            <div class="col-md-6">
-              
+            <h2 class="text-center mb-5 fw-bold">Nos Horaires</h2>
+            <div class="m-auto mx-auto">
               <ul class="list-unstyled fs-5">
                 <li class="d-flex justify-content-between border-bottom py-2">
                   <span>Lundi</span> <span class="fw-bold">12h - 19h</span>
@@ -175,86 +170,25 @@
                 </li>
               </ul>
             </div>
-            <div class="col-md-6">
-            <form action="../includes/form.php" method="post">
-              <fieldset class="border rounded-3 p-4 mb-4 bg-white shadow-sm">
-                <div class="row g-3">
-                  <div class="col-md">
-                    <label for="Nom" class="input-group-text">Nom</label>
-                    <input type="text" name="name" class="form-control" placeholder="Votre nom">
-                  </div>
-                </div>
-                <div class="row g-3">
-                  <div class="col-md">
-                    <label for="service-stars" class="input-group-text">Service</label>
-                    <input type="radio" name="service-stars" id="" value="1" class="form-check-input">
-                    <input type="radio" name="service-stars" id="" value="2" class="form-check-input">
-                    <input type="radio" name="service-stars" id="" value="3" class="form-check-input">
-                    <input type="radio" name="service-stars" id="" value="4" class="form-check-input">
-                    <input type="radio" name="service-stars" id="" value="5" class="form-check-input">
-                  </div>
-                </div>
-                <div class="row g-3">
-                  <div class="col-md">
-                    <label for="ambiance-stars" class="input-group-text">Ambiance</label>
-                    <input type="radio" name="ambiance-stars" id="" value="1" class="form-check-input">
-                    <input type="radio" name="ambiance-stars" id="" value="2" class="form-check-input">
-                    <input type="radio" name="ambiance-stars" id="" value="3" class="form-check-input">
-                    <input type="radio" name="ambiance-stars" id="" value="4" class="form-check-input">
-                    <input type="radio" name="ambiance-stars" id="" value="5" class="form-check-input">
-                  </div>
-                </div>
-                <div class="row g-3">
-                  <div class="col-md">
-                    <label for="food-stars" class="input-group-text">Nourriture</label>
-                    <input type="radio" name="food-stars" id="" value="1" class="form-check-input">
-                    <input type="radio" name="food-stars" id="" value="2" class="form-check-input">
-                    <input type="radio" name="food-stars" id="" value="3" class="form-check-input">
-                    <input type="radio" name="food-stars" id="" value="4" class="form-check-input">
-                    <input type="radio" name="food-stars" id="" value="5" class="form-check-input">
-                  </div>
-                </div>
-                <div class="row g-3">
-                  <div class="col-md">
-                    <select
-                    id=""
-                    class="form-select mx-auto"
-                    name="situation"
-                    >
-                    <option selected>Non Spécifié</option>
-                    <option value="Seul.e">Seul.e</option>
-                    <option value="Accompagné.e">Accompagné.e</option>
-                  </select>
-                  </div>
-                </div>
-                <div class="row g-3">
-                  <div class="col-md">
-                    <label for="review" class="input-group-text">Laissez un avis :</label>
-                    <textarea name="review" id="review" class="form-control" rows="3" style="resize:none" placeholder="Votre avis"></textarea>
-                  </div>
-                </div>
-                <div class="row g-3">
-                  <div class="col-md">
-                    <input
-                  type="submit"
-                  name="review-send"
-                  id="review-send"
-                  value="Envoyer"
-                  class="btn btn-success btn-lg px-5 shadow"
-                  onclick=""
-                />
-                  </div>
-                </div>
-
-              </fieldset>
-            </form>
-          </div>
           </div>
         </div>
       </section>
+
+      <section class="py-5">
+        <div class="container">
+          <div class="row align-items-center">
+            <h2 class="text-center mb-5 fw-bold">Laissez un avis</h2>
+            <div class="m-auto mx-auto">
+              <?php include '../includes/review_form.php'; ?>
+            </div>
+          </div>
+        </div>
+      </section>
+      
     </main>
 
     <?php include '../includes/footer.php'; ?>
-    
+  
+    <script src="js/review-form.js"></script>
   </body>
 </html>

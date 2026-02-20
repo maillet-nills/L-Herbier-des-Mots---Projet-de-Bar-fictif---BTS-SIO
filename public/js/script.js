@@ -109,7 +109,7 @@ function submitQuizz() {
     alert("Saisies manquantes ou incorrectes !");
   } else {
     var choice = prompt(
-      "Êtes-vous sûr de vouloir continuer ? Écrivez OUI pour valider :"
+      "Êtes-vous sûr de vouloir continuer ? Écrivez OUI pour valider :",
     );
     if (choice == "OUI") {
       alert("Voici les réponses au quizz !");
